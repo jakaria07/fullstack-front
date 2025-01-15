@@ -7,7 +7,9 @@ function Navbar() {
       <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Full Stack Applicatioin</a>
+          <Link className="navbar-brand" to="/">
+            Full Stack Applicatioin
+          </Link>
     <button
         className="navbar-toggler"
         type="button"
